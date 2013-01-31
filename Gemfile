@@ -1,12 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '~> 3.2.11'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'rmagick'
+gem 'devise'
+gem "devise-encryptable"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -36,3 +38,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+gem 'spree', :git => 'git://github.com/spree/spree.git'
+gem 'spree_usa_epay'
+gem 'spree_skrill'
+gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'
